@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Read</title>
+</head>
+<body>
+    {{dojos}}
+    <h1>All Dojos</h1>
+    <table class="table">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for dojo in dojos %}
+        <tr>
+        <th scope="row">{{dojo.id}}</th>
+        <td>{{dojo.name}}</td>
+        <td><a href="/dojo/show/{{dojo.id}}">Show</a> | <a href="/dojo/edit/{{dojo.id}}">Edit</a> | <a href="/delete/{{dojo.id}}">Delete</a></td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a class="btn btn-primary" href="/dojo/new">Add a new dojo</a>
+    <a class="btn btn-warning" href="/ninja/new">Add Ninja</a>
+</body>
+</html>

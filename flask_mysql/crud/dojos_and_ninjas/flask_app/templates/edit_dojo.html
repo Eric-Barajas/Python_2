@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Create</title>
+</head>
+<body>
+    <div class="d-flex justify-content-between">
+        <h1>Edit Dojo</h1>
+        <input type="hidden" name="id" value="{{dojo.id}}">
+        <a href="/">Home</a>
+    </div>
+    <form action="/dojo/update" method="POST">
+        <input type="hidden" value="{{dojo.id}}" name="id">
+        <label for="first_name">First name:</label><br>
+        <input type="text" id="fname" name="name" value="{{dojo.name}}"><br>
+        <input class="btn btn-primary" type="submit" value="Update"> <a href="/dojo/show/{{dojo.id}}">Show Dojo</a>
+    </form>
+</body>
+</html>

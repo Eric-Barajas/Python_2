@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    height: 800px;
+    padding: 60px;
+    background-color: gray;
+}
+.block{
+    background-color: gray;
+}
+.title_name{
+    color: blue;
+}
+.back{
+    color: blue;
+}
+.white{
+    color: white;
+}

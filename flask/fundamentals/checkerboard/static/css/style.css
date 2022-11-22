@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.color1{
+    background-color: peachpuff;
+    height: 80px;
+    width: 80px;
+}
+
+.color2{
+    background-color: rebeccapurple;
+    height: 80px;
+    width: 80px;
+}
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+} */
