@@ -3,7 +3,7 @@ from flask_app import flash, re
 from pprint import pprint
 from flask_app.models.painting import Painting
 
-DATABASE = 'n_p_j_schema'
+DATABASE = 'nails_and_paintings'
 
 
 class Cart:

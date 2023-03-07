@@ -1,3 +1,69 @@
+# 👋 Introducing `Studio Design Shop Repo`
+
+## Table of Contents
+* [Description](#Description)
+* [Features](#Features)
+* [Technologies Used](#Technologies-Used)
+* [Functionality](#Functionality)
+
+___
+
+## Description
+A full stack e-commerce website that sells handmade paintings and nails
+
+[Return to Table of Contents](#Table-of-Contents)
+
+___
+
+## Features
+* Displays various types of nails and paintings 
+* Can create your own account
+* Can add however many items you want to your personal cart
+* In order to add items to your cart you have to be signed in
+
+[Return to Table of Contents](#Table-of-Contents)
+
+___
+
+## Technologies Used
+* Python <img align="left" alt="Python" width="20px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
+
+* MySql <img align="left" alt="MySQL" width="20px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+
+* VSCode <img align="left" alt="VSCode" width="20px" style="padding-right:10px;" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" />
+
+* Flask <img style="background-color:white; overflow:hidden;" align="left" alt="Flask" width="20px" style="padding-right:10px;" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" />
+
+* HTML5 <img align="left" alt="html" width="20px" style="padding-right:10px;" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" />
+
+* CSS <img align="left" alt="css" width="20px" style="padding-right:10px;" src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" />
+
+* BOOTSTRAP <img align="left" alt="Bootstrap" width="20px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+
+* Jinja2 <img align="left" alt="jinja2" width="20px" style="padding-right:10px;" src="https://www.vectorlogo.zone/logos/pocoo_jinja/pocoo_jinja-icon.svg" />
+
+[Return to Table of Contents](#Table-of-Contents)
+
+
+___
+
+## Functionality
+You first Log in or make an account 
+
+<img src="https://github.com/Purposefully/PurposefulGroups/blob/main/images/survey_question.png?raw=true" alt="Survey questions" width="500">  
+
+You browse the items and select add whatever item you want to your cart
+
+<img src="https://github.com/Purposefully/PurposefulGroups/blob/main/images/choose_file.png?raw=true" alt="Choose a data file" width="500">  
+
+You can click on the cart icon to see the list of items you have added to your cart 
+
+<img src="https://github.com/Purposefully/PurposefulGroups/blob/main/images/teacher_options.png?raw=true" alt="Teacher Options" width="500">  
+
+[Return to Table of Contents](#Table-of-Contents)
+
+___
+
 # flask_checklist
 
 # Set Up Database
@@ -645,6 +711,6 @@ class User:
         return is_valid
 
 ```
-
+[Return to Table of Contents](#Table-of-Contents)
 
 

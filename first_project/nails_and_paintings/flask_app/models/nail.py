@@ -2,7 +2,7 @@ from flask_app.config.mysqlconnection import connectToMySQL
 from flask_app import flash, re
 from pprint import pprint
 
-DATABASE = 'n_p_j_schema'
+DATABASE = 'nails_and_paintings'
 
 class Nail:
     def __init__(self, data:dict) -> None:

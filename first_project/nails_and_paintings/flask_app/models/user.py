@@ -5,7 +5,7 @@ from flask_app.models.painting import Painting
 from flask_app.models.nail import Nail
 
 
-DATABASE = 'n_p_j_schema'
+DATABASE = 'nails_and_paintings'
 EMAIL_REGEX = re.compile(r'^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$') 
 
 class User:
